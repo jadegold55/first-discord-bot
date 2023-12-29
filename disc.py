@@ -29,11 +29,9 @@ channel_three = int(env["CHANNEL3"])
 channel_four = int(env["CHANNEL4"])
 
 # clean up data storing
-# create regex for quotes
 # figure out arrays in config files
 # add more emotes features
 # long term goal- switch to slash commands
-# upload bot for public use
 # have bot run in cloud server
 
 class spongeBot(discord.Client):
