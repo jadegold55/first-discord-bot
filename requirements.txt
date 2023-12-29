@@ -1,0 +1,9 @@
+discord.py
+PyNaCl
+typing_extensions
+pafy
+opuslib
+BeautifulSoup
+urllib
+pandas
+requests

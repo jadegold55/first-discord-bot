@@ -20,4 +20,4 @@ p = re.compile('[0-9.]')
 for x in quotes:
     m = p.sub('', x)
     quote.append(m)
-print(quote)
+

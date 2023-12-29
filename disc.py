@@ -25,7 +25,7 @@ guild_id = int(env["GUILD_ID"])
 gen_chnl_txt_id = int(env["GENERAL_CHAT"])
 channel_one = int(env["CHANNEL1"])
 channel_two = int(env["CHANNEL2"])
-channel_three = int(env{"CHANNEL3"})
+channel_three = int(env["CHANNEL3"])
 channel_four = int(env["CHANNEL4"])
 
 # clean up data storing
@@ -38,7 +38,7 @@ channel_four = int(env["CHANNEL4"])
 
 class spongeBot(discord.Client):
     async def on_ready(self):
-        print(f"logged in as {self.user} (ID: {self.user.id})")
+        print(f"logged in as {self.user}")
         print("----")
 
     async def on_message(self, message: discord.Message):
@@ -68,6 +68,7 @@ class spongeBot(discord.Client):
             infected_user is not None and message.author.id == infected_user
         ):  # follows user once tagged with infect
             await reply_with_squawk(message)
+            # add cooldown for this command to avoid rate limit
             # user will continue to be tracked 
 
 
