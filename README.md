@@ -5,9 +5,8 @@ This SpongeBob-themed Discord bot is designed to bring joy and fun to your Disco
 
 ## Features
 - **SpongeBob Quotes**: Get random quotes from your favorite SpongeBob characters.
-- **Games**: Enjoy interactive games based on SpongeBob episodes and themes.
-- **Custom Commands**: Create and manage custom commands related to SpongeBob.
-- **Image Gallery**: Share images from the show, including GIFs and fan art.
+- **Custom Commands**: Create and manage custom commands related to SpongeBob 
+- **Troll your friends! 
 
 ## Installation Instructions
 1. **Clone the repository**:
